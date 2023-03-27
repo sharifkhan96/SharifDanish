@@ -1,0 +1,124 @@
+
+
+	*{
+        /*margin: 0;*/
+        padding: 0;
+        box-sizing: 0;
+        font-family: arial;
+        transition: all 0.5s ease;
+      }
+
+      .main-menu
+        {
+          background-color:#2980b9;
+          position: relative;
+        }
+        .main-menu ul
+        {
+          list-style: none;
+          text-align: center;
+          font-size: 18px;
+        }
+        .main-menu ul li
+        {
+          display: inline-block;
+        }
+        .main-menu ul li a
+        {
+          display: inline-block;
+          color: white;
+          padding: 15px 30px;
+          text-decoration: none;
+        }
+        .sub-menu-1
+        {
+          background-color: #3498db;
+          position: absolute;
+          height: 0;
+          overflow: hidden;
+        }
+        .sub-menu-1 ul li
+        {
+          display: block;
+        }
+        .main-menu ul li:hover .sub-menu-1
+        {
+          height: 200px;
+        }
+        .main-menu ul li a:hover
+        {
+          background-color: #34495e;
+        }
+
+.myHeadingOne
+{
+	/*text-align: center;*/
+	font-style: serif;
+	font-size: 40px;
+	background-color: aqua;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 60px;
+  opacity: 0.7;
+}
+
+.mybody
+{
+	background-image: url(img.jpg);
+	background-repeat: no-repeat;
+	background-size: cover; /* 100% */
+}
+
+
+.myParag
+{
+	background-color: white;
+	justify-content: center;
+	padding: 8px;
+	border: 2px dotted black;
+	font-family: serif;
+  text-align: justify;
+}
+
+
+.fot
+{
+	background-color: white;
+	color: black;
+	margin-top: 15%;
+  padding: 5px;
+}
+
+.mySpanArea
+{
+	background-color: white;
+	margin-right: 1100px;
+	border: 2px solid rgb(255,252,20);
+	border-radius: 8px;
+	margin-bottom: 3px;
+  text-align: justify;
+  padding: 5px;
+}
+
+
+.mg
+{
+	/*margin-bottom: 40px;*/
+}
+
+.aboutpic
+{
+  width: 1400px;
+  height: 700px;
+
+}
+
+.myp{
+
+    justify-content: center;
+    text-align: justify;
+    border: 1px dashed blue;
+    padding: 5px;
+    margin: 3px;
+  }
